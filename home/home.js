@@ -4,7 +4,7 @@ let imageArray = [];
 
 let i = 1;
 setInterval(() => {
-    img.setAttribute("src", `./img${i}.jpg`);
+    img.setAttribute("src", `img${i}.jpg`);
     if (i === 3) {
         i = 0;
     }
